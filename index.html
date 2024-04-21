@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Genshin Impact</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="header">
+    <img class="background_img" src="/img.svg/genshin-impact-chenyu-vale-mt-xuanlian-1.jpg" alt="">
+    <div class="nav">
+        <div class="nav-burger">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+    </div>
+    <img class="nav-logo" src="/img.svg/logo.svg" alt="">
+        <ul class="nav-ul">
+           <a class="nav-ul_a" href="index.html"><li class="nav-ul_li">Головна</li></a>
+           <a class="nav-ul_a" href="news.html"><li class="nav-ul_li">Новини</li></a>
+           <a class="nav-ul_a" href="cheracter.html"><li class="nav-ul_li">Персонажі</li></a>
+           <a class="nav-ul_a" href="information.html"><li class="nav-ul_li">Інформація</li></a>
+           <a class="nav-ul_a" href="/index6.html"><li class="nav-ul_li"><a class="modal-trigger" onclick="openModal()">Авторізація</a></li></a>
+        </ul>
+        <div class="modal-container show" id="myModal">
+            <div class="overlay"></div>
+            <div class="modal">
+                <span class="modal__close" onclick="closeModal()">x</span>
+                <span class="modal__close-o"></span>
+                <form class="modal-form">
+                    <label for="" class="modal-form__label"><h2 class="come_regestration">Увійти до облікового запису</h2></label>
+                    <label for="" class="modal-form__label">ім'я користувача / електронна пошта</label>
+                    <input type="text" class="modal-form__input" name="" id="">
+                    <label for="" class="modal-form__label">пароль</label>
+                    <input type="tel" class="modal-form__input" name="" id="">
+                    <div class="modal-form-accept">
+                        <input type="checkbox" class="modal-form-accept__checkbox">
+                        <p class="modal-form-accept-info">I accept the terms and conditions of the <a href="" class="modal-form-accept-info__privacy">Privacy Policy</a></p>
+                    </div>
+                    <button class="modal-form__btn">Send</button>
+                    <div class="problems">
+                    <label for="" class="modal-form__label"><span class="problems_regestration">Зіткнулися із проблемами?</span></label>
+                    <label for="" class="modal-form__label"><span class="problems_regestration">Зареєструватись зараз</span></label>
+                </div>
+                </form>
+            </div>
+            
+            <img class="nav-icon" src="/img.svg/icon.png">
+        <section class="nav-welcome">
+            <h2 class="nav-welcome_teyvat">Ласкаво просимо в Тейват</h2>
+            <p class="nav-welcome_genshin">Genshin Impact — це перша в історії гра miHoYo<br> з відкритим світом, де вірування в «Сімку» сходяться<br> в фантастичному світі Тейват.</p>
+            <button class="nav-welcome_button">Дивитись більше</button>
+        </section>
+        <section class="platforms">
+            <p class="platforms_downlaund">Завантаження для цих платформ вже доступне!</p>
+            <a href="https://www.playstation.com/uk-ua/games/genshin-impact/"><img class="platforms_downlaund_1" src="/platforms/492e39dd6b52d44d1328153ceffdfbdf_7662025499296228357.png" alt=""></a>
+            <a><img class="platforms_downlaund_2" src="/platforms/2577fdf3178c59e64861b4d41c8def13_1289788108854828378.png" alt=""></a>
+            <a><img class="platforms_downlaund_2" src="/platforms/5dbe040157bb6434b0b18b8292282b32_3632237727328970001.png" alt=""></a>
+            <a><p></p><img class="platforms_downlaund_3" src="/platforms/dfd1d5393a451babbcf946ca340ca454_1048735058485620098.png" alt=""></a>
+            <a><img class="platforms_downlaund_3" src="/platforms/f5675485246f78738f52cd9ba9d8bb80_5196703687952392730.png" alt=""></a>
+            <a><img class="platforms_downlaund_3" src="/platforms/b844aa37a8f56c86dcb73ac608ef87bc_7486702195076102975.png" alt=""></a>
+        </section>
+    </header>
+        <main class="main">
+            <section class="information">
+                <p class="information-class">Новини</p>
+                <img class="background_img_2" src="/koshkin-hvost-10.jpg">
+                <div>
+                    <section class="container">
+                        <div class="slider-wrapper">
+                          <div class="slider">
+                            <img src="/slider/60b5f3687f659a2f5af85100d7731056_1800317664645629180.jpg" alt="Картинка-1" id="slide-1">
+                            <img src="/slider/6159b68fad3528dfdba39a679c5fa32f_5743560302275274259.jpg" alt="Картинка-1" id="slide-2">
+                            <img src="/slider/b8c09b788253dc9db90180ad1339d34a_5772048354998679511.jpg" alt="Картинка-1" id="slide-3">
+                            <img src="/slider/e2111687abb2cc1f493c16df0dce0804_2383428015354685846.jpg" alt="Картинка-1" id="slide-4">
+                          </div>
+                          <div class="slider-nav">
+                            <a href="#slide-1"></a>
+                            <a href="#slide-2"></a>
+                            <a href="#slide-3"></a>
+                            <a href="#slide-4"></a>
+                          </div>
+                        </div>
+                      </section>
+                </div>
+            <div class="information-conrent">
+                <ul class="information-tab-list">
+                    <li class="information-tab-item">Нове</li>
+                </ul>
+                <ul class="information-new"> 
+                    <a class="information-new_a" href="/index1.html"><li class="information-new_li">Мяудісея Замка котиків: Поради щодо ігрового процесу</li></a>
+                    <a class="information-new_a" href="/index1.html"><li class="information-new_li">«Дихання всеочищувального дощу» | Міні-альбом Genshin Impact</li></a>
+                    <a class="information-new_a" href="/index1.html"><li class="information-new_li">Якого котика вам приготувала доля?</li></a>
+                    <a class="information-new_a" href="/index1.html"><li class="information-new_li">Бренд Мандрівника: Дизайн логотипу</li></a>
+                    <a class="information-new_a" href="/index1.html"><li class="information-new_li">Спеціальний стрим Genshin Impact версії 4.6</li></a>
+                </ul>
+                <a href="/index_news.html"><button class="information-more_button">Більше</button></a>
+            </div>
+            </section>
+            <section class="city">
+                <ul class="city__list">
+    <a href="/index2.html"><li class="city__list-item">
+            <div class="city__list-bg">
+                <img class="city_img-1" src="/city/2020021114275255981.jpg">
+            <p class="city_name-monshtat">Монштат</p>
+        </div>
+    </li>
+</a>
+    <a href="/index3.html"><li class="city__list-item">
+            <div class="city__list-bg">
+                <img class="city_img-2" src="/city/2020052612372361982.jpg">
+            <p class="city_name-li-ue">Лі Ює</p>
+        </div>
+    </li>
+</a>
+    <a href="/index4.html"><li class="city__list-item">
+            <div class="city__list-bg">
+                <img class="city_img-3" src="/city/2021072015230536749.jpg">
+            <p class="city_name-inadzuma">Інадзума</p>
+        </div>
+    </li>
+</a>
+        <a href="/index5.html"><li class="city__list-item">
+            <div class="city__list-bg">
+                <img class="city_img-4" src="/city/b01e3edba8378a485bd2f8b2075e4e86_1690987846820777555.jpg">
+            <p class="city_name-sumery">Сумеру</p>
+        </div>
+    </li>
+</a>
+    <a href="/index6.html"><li class="city__list-item">
+        <div class="city__list-bg-5">
+            <img class="city_img-5" src="/city/5e39ed0598e894158c4d42a7077c296d_7180151704542677986.png">
+            <p class="city_name-fontain">Фонтейн</p>
+        </div>
+    </li>
+</a>
+                </ul>
+            </section>
+        </main>
+        <footer class="footer">
+            <img class="footer_img" src="/1679180629_bogatyr-club-p-fon-iz-genshina-foni-vkontakte-21.jpg">
+            <ul class="last-news-company">
+            <li><div>
+                <h2 class="last-news-company_sb">Підпишіться на останні новини</h2>
+                <p class="last-news-company_text">Підпишіться на офіційні новини Genshin Impact від Паймон,<br> щоб першими дізнаватися про новинки, отримувати відомості про<br> персонажів та бути в курсі нагород тимчасових подій!</p>
+            </div>
+        </li>
+        <li>
+            <section class="form">
+            <div class="form-check">
+                <input class="form-check-input" type="text" value="">
+                <button class="sub">Підписатися</button>
+                <p></p><input class="form-check-input_2" type="checkbox" value="" id="flexCheckChecked" checked>
+                <label class="form-check-label" for="flexCheckChecked">
+                    Я погоджуюсь на обробку особистої інформації для<br> отримання запрошень взяти участь у<br> подіях та інших ігрових повідомлень.
+                </label>
+              </div>
+            </section>
+        </li>
+        </ul>
+        <div class="">
+            <img class="nav-logo_end" src="/img.svg/logo.svg">
+            <ul class="conficialnyst">
+                <li class="conficialnyst_politika-li">Політика конфіденційності</li>
+                <li class="conficialnyst_politika-li">Умови обслуговування</li>
+                <li class="conficialnyst_politika-li">Про розробника</li>
+                <li class="conficialnyst_politika-li">Служба підтримки</li>
+            </ul>
+            <p><span class="dop_info">"PlayStation Family Mark," "PS5 logo" and "PS4 logo" are registered trademarks or trademarks of Sony Interactive Entertainment Inc.</span></p>
+            <p class=""><span class="dop_info_2">Epic, Epic Games, Epic Games Store, the Epic Games Store logo, and Epic Online Services are trademarks and/or registered trademarks of Epic Games. All other trademarks are the property of<br> their respective owners.</span></p>
+        </div>
+        </footer>
+
+        <script src="/script.js"></script>
+</body>
+</html>
