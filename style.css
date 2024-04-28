@@ -22,10 +22,12 @@
   margin-top: 50px;
 }
 .nav-ul {
+  position: relative;
   display: flex;
   -moz-column-gap: 40px;
        column-gap: 40px;
   margin-left: 610px;
+  z-index: 2;
 }
 .nav-ul_li {
   list-style: none;
@@ -102,6 +104,7 @@ display: block;
 
 .modal-container {
 position: relative;
+z-index: 3;
 }
 
 .modal-trigger {
@@ -186,6 +189,7 @@ border-radius: 50px;
     min-height:30px; 
     min-width: 120px;
     cursor: pointer;
+    margin-top: 0px;
   }
   .platforms {
     position: relative;
@@ -229,8 +233,8 @@ border-radius: 50px;
   background: rgba(38, 18, 12, 0.62);
   height: 400px;
   width: 690px;
-  margin-left: 938px;
-  margin-top: -450px;
+  margin-left: 960px;
+  margin-top: -477px;
 }
 .information-tab-list {
   color: #ffd49f;
@@ -286,7 +290,7 @@ border-radius: 50px;
   position: relative;
   max-width: 47rem;
   margin: 0 auto;
-  margin-left: 260px;
+  margin-left: -10px;
 }
 
 .slider {
@@ -344,6 +348,7 @@ border-radius: 50px;
   margin-top: 0;
   margin-right: 10px;
   margin-left: -48px;
+
 
 }
 .city_img-2{
@@ -660,6 +665,206 @@ border-radius: 50px;
 }
 
 
+.background_img_info{
+  position: absolute;
+  z-index: -1;
+  height: max-content;
+  width: 1910px;
+  bottom: 20px;
+  right: 0;
+  left: 0;
+  filter: 60%;
+}
+.relis {
+  position: relative;
+  top: 330px;
+  margin-left: 580px;
+  font-size: 30px;
+}
+.relis_platforms {
+  color: #ffffff;
+  justify-content: center;
+}
+.relis_day {
+  color: #ffffff;
+  margin-left: 200px;
+}
+.background_img_info_2{
+  position: absolute;
+  z-index: -1;
+  height: max-content;
+  width: 1910px;
+  top: 890px;
+  right: 0;
+  left: 0;
+  filter: 60%;
+}
+.section-main {
+  margin-top: 650px;
+}
+.features {
+  margin-left: 850px;
+  color: #ffffff;
+
+}
+.features-viuv_left {
+  position: relative;
+  margin-left: 600px;
+  padding: 30px;
+  list-style: none;
+
+}
+.general-picture_left {
+
+}
+.img_view_left {
+}
+.description_left {
+  position: relative;
+  margin-bottom: -120px;
+}
+.description_back_left {
+  position: relative;
+  margin-bottom: -220px;
+}
+.title_info_left {
+}
+.text_info_left {
+}
+.features-viuv_right {
+}
+.img_view {
+}
+.description {
+}
+.description_back {
+}
+.title_info {
+}
+.text_info {
+}
+.personawi {
+}
 
 
+.region{
+  position: absolute;
+}
+.name-region {
+  list-style: none;
 
+}
+.st-name {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 30px;
+}
+.container {
+  position: relative;
+  max-width: 2024px;
+  margin: 30px;
+  padding: 30px;
+  margin-left: 300px;
+  margin-top: -60px;
+}
+
+button {
+  position: relative;
+  background: none;
+  border: 1px solid black;
+  border-radius: 4px;
+  padding: 10px 20px;
+  font-size: .9rem;
+  background-color: #3C3537;
+  z-index: 2;
+}
+.button_prev-next{
+  margin-top: -500px;
+  margin-left: -290px;
+}
+button:hover {
+  background: rgb(153, 149, 147);
+}
+
+button:active {
+  background: #000;
+}
+
+.courses {
+  margin-top: 40px;
+}
+
+.courses li {
+  margin-bottom: 20px;
+}
+
+.courses a {
+  color: #222;
+}
+.slider_1{
+  width: 1500px;
+  height: 760px;
+  margin: 0px ;
+  overflow: hidden;
+}
+.slider__r {
+  width: 600px;
+  height: 256px;
+  margin: 20px auto;
+
+}
+
+.slider-line {
+  width: 3024px;
+  height: 256px;
+  display: flex;
+  position: relative;
+  left: 0;
+  transition: all ease 1s;
+}
+
+.cheeee{
+  position: relative;
+  width: 1300px;
+  height: 800px;
+  margin-left: 700px;
+  margin-top: -283px;
+  margin-left: -150px;
+  z-index: -1;
+  left: calc(50% - 504px);
+}
+.cheracters_monshtat {
+  display: flex;
+  gap: 30px;
+}
+.cheracters_monshtat-info {
+  list-style: none;
+  column-gap: 40px;
+  margin-left: 200px;
+  margin-top: 20px;
+}
+.cheracter-name {
+  width: 400px;
+  font-size: 46px;
+  color: #fff;
+}
+.cheracter-info {
+  color: #fff;
+  line-height: 26px;
+}
+.slider_mini {
+  position: relative;
+  display: flex;
+  gap: 60px;
+  margin-top: 374px;
+  right: 300px;
+}
+.slider_mini::before{
+  background-color: #3C3537;
+}
+.mini-slayd {
+  list-style: none;
+}
+.mini-pers {
+  background-color: #cecece42 ;
+}
